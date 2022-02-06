@@ -1,0 +1,335 @@
+@media (max-width: 1570px) {
+    /* модалка */
+    /* модалка */
+
+    /* контент */
+
+    /* header */
+    .header-big {
+        max-width: 740px;
+    }
+    /* header */
+
+    /* advantages */
+    /* advantages */
+
+    /* about-us */
+    /* about-us */
+
+    /* cases */
+    /* cases */
+
+    /* working */
+    /* working */
+
+    /* big-form */
+    /* big-form */
+
+    /* attention */
+    /* attention */
+
+    /* контент */
+
+    /* подвал */
+    /* подвал */
+}
+@media (max-width: 1440px) {
+    /* модалка */
+    /* модалка */
+
+    /* контент */
+
+    /* header */
+    .header {
+        padding-top: 70px;
+        background-position-y: -95px;
+    }
+    .logo {
+        max-width: 40px;
+    }
+    .logo-digital {
+        max-width: 235px;
+    }
+    .header-logo {
+        margin-bottom: 55px;
+    }
+    .header-title {
+        margin-bottom: 35px;
+        font-size: 45px;
+    }
+    .header-click {
+        max-width: 600px;
+        border: 1px solid whitesmoke;
+    }
+    .header-big {
+        max-width: 600px;
+    }
+    /* header */
+
+    /* advantages */
+    /* advantages */
+
+    /* about-us */
+    /* about-us */
+
+    /* cases */
+    /* cases */
+
+    /* working */
+    /* working */
+
+    /* big-form */
+    /* big-form */
+
+    /* attention */
+    /* attention */
+
+    /* контент */
+
+    /* подвал */
+    /* подвал */
+}
+@media (max-width: 1200px) {
+    /* модалка */
+    /* модалка */
+
+    /* контент */
+
+    /* header */
+    .header {
+        padding-top: 35px;
+        background-position-y: -130px;
+    }
+    .logo-digital {
+        max-width: 150px;
+    }
+    .logo {
+        max-width: 25px;
+    }
+    .header-logo {
+        margin-bottom: 35px;
+    }
+    .header-title-mini {
+        font-size: 30px;
+    }
+    .header-title {
+        margin-bottom: 35px;
+        font-size: 35px;
+    }
+    .header-click {
+        padding: 10px 0 10px 10px;
+        max-width: 555px;
+    }
+    .header-click__text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .header-big {
+        max-width: 425px;
+    }
+    /* header */
+
+    /* advantages */
+    /* advantages */
+
+    /* about-us */
+    /* about-us */
+
+    /* cases */
+    /* cases */
+
+    /* working */
+    /* working */
+
+    /* big-form */
+    /* big-form */
+
+    /* attention */
+    /* attention */
+
+    /* контент */
+
+    /* подвал */
+    /* подвал */
+}
+@media (max-width: 991px) {
+    /* модалка */
+    /* модалка */
+
+    /* контент */
+
+    /* header */
+    .header {
+        background-position-y: -45px;
+    }
+    .header-logo {
+        margin-bottom: 16px;
+    }
+    .header-title-mini {
+        font-size: 22px;
+    }
+    .header-title {
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+    .header-click {
+        padding: 10px;
+        max-width: inherit;
+        background: transparent;
+        border-radius: 0;
+        padding: 0;
+        width: fit-content;
+        border: none;
+    }
+    .header-click__text {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    /* header */
+
+    /* advantages */
+    /* advantages */
+
+    /* about-us */
+    /* about-us */
+
+    /* cases */
+    /* cases */
+
+    /* working */
+    /* working */
+
+    /* big-form */
+    /* big-form */
+
+    /* attention */
+    /* attention */
+
+    /* контент */
+
+    /* подвал */
+    /* подвал */
+}
+@media (max-width: 768px) {
+    /* модалка */
+    /* модалка */
+
+    /* контент */
+
+    /* header */
+    .header {
+        background-position-y: 0px;
+    }
+    .header-big {
+        max-width: 250px;
+    }
+    /* header */
+
+    /* advantages */
+    /* advantages */
+
+    /* about-us */
+    /* about-us */
+
+    /* cases */
+    /* cases */
+
+    /* working */
+    /* working */
+
+    /* big-form */
+    /* big-form */
+
+    /* attention */
+    /* attention */
+
+    /* контент */
+
+    /* подвал */
+    /* подвал */
+}
+@media (max-width: 575px) {
+    /* модалка */
+    /* модалка */
+
+    /* контент */
+
+    /* header */
+    .header {
+        background-image: none;
+        padding-bottom: 80px;
+    }
+    .header-title {
+        margin-bottom: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+    .header-mob {
+        margin-bottom: 32px;
+    }
+    /* header */
+
+    /* advantages */
+    /* advantages */
+
+    /* about-us */
+    /* about-us */
+
+    /* cases */
+    /* cases */
+
+    /* working */
+    /* working */
+
+    /* big-form */
+    /* big-form */
+
+    /* attention */
+    /* attention */
+
+    /* контент */
+
+    /* подвал */
+    /* подвал */
+}
+@media (max-width: 375px) {
+    /* модалка */
+    /* модалка */
+
+    /* контент */
+
+    /* header */
+    .header {
+        overflow: hidden;
+    }
+    .header-mob {
+        max-width: 340px;
+        transform: translateX(18px);
+    }
+    /* header */
+
+    /* advantages */
+    /* advantages */
+
+    /* about-us */
+    /* about-us */
+
+    /* cases */
+    /* cases */
+
+    /* working */
+    /* working */
+
+    /* big-form */
+    /* big-form */
+
+    /* attention */
+    /* attention */
+
+    /* контент */
+
+    /* подвал */
+    /* подвал */
+}

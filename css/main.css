@@ -1,0 +1,234 @@
+/* base */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #142239;
+    background-color: #ffffff;
+}
+
+a,
+a:hover {
+    cursor: pointer !important;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer !important;
+}
+
+input:hover,
+button:hover {
+    cursor: pointer !important;
+    border: 0;
+    outline: none;
+}
+
+input:focus,
+button:focus {
+    cursor: pointer !important;
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1570px;
+    padding: 0 10px 0 10px;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 991px;
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 575px;
+        padding: 0 20px 0 20px;
+    }
+}
+
+.title {
+    font-family: "Segoe UI Gras";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 105%;
+    margin-bottom: 80px;
+}
+.color-violet {
+    color: #7f2ae4;
+}
+
+.btn-general {
+    background: linear-gradient(132.78deg, #684ecc -27.09%, #920af7 119.69%);
+    box-shadow: 0px 15px 30px -10px #c19fed;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    max-width: 270px;
+    width: 100%;
+    padding: 17px 0;
+    transition: 0.3s;
+}
+.btn-general:hover {
+    transition: 0.3s;
+    transform: scale(1.04);
+}
+@media (max-width: 991px) {
+    .btn-general {
+        background: linear-gradient(132.78deg, #684ecc -27.09%, #920af7 119.69%);
+        box-shadow: none;
+        border-radius: 5px;
+        width: 280px;
+        max-width: inherit;
+        padding: 15px 0;
+    }
+}
+/* base */
+
+/* модалка */
+/* модалка */
+
+/* контент */
+
+/* header */
+.header {
+    background-image: url(../img/1-header/header-bgc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    padding-top: 140px;
+    padding-bottom: 77px;
+}
+.header-logo {
+    margin-bottom: 98px;
+}
+.header-title-mini {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 130.02%;
+}
+.header-title {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #7f2ae4;
+}
+.header-click {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 21px 0 21px 22px;
+    width: 100%;
+    max-width: 675px;
+}
+.header-click__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+.header-big {
+    height: 100%;
+    max-width: 880px;
+}
+/* header */
+
+/* advantages */
+/* advantages */
+
+/* about-us */
+/* about-us */
+
+/* cases */
+/* cases */
+
+/* working */
+/* working */
+
+/* big-form */
+/* big-form */
+
+/* attention */
+/* attention */
+
+/* контент */
+
+/* подвал */
+/* подвал */
