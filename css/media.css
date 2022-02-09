@@ -190,6 +190,9 @@
     /* header */
 
     /* advantages */
+    .advantages {
+        padding: 30px 0 100px;
+    }
     /* advantages */
 
     /* about-us */
@@ -272,6 +275,26 @@
     /* header */
 
     /* advantages */
+    .advantages {
+        padding: 0 0 80px;
+    }
+    .advantages-number img {
+        width: 76px;
+    }
+    .advantages-block {
+        margin-bottom: 35px;
+    }
+    .advantages-number {
+        max-width: 400px;
+        width: 100%;
+    }
+    .advantages-number__title {
+        font-size: 18px;
+    }
+    .advantages-number__text {
+        font-size: 18px;
+        line-height: 22px;
+    }
     /* advantages */
 
     /* about-us */
