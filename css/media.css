@@ -14,9 +14,33 @@
     /* advantages */
 
     /* about-us */
+    .title-bout-us {
+        top: 70px;
+    }
+    .abouts-us-img {
+        width: 430px;
+    }
+    .abous-us__text {
+        font-size: 20px;
+        max-width: 640px;
+        margin-bottom: 85px;
+    }
+    .abous-us__element__text {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .about-us__number__element::before {
+        right: -15px;
+    }
+    .abouts-us {
+        padding: 100px 0 120px;
+    }
     /* about-us */
 
     /* cases */
+    .circle-3 {
+        bottom: 45px;
+    }
     /* cases */
 
     /* working */
@@ -133,9 +157,66 @@
     /* advantages */
 
     /* about-us */
+    .abouts-us-img {
+        width: 350px;
+        margin-left: 75px;
+    }
+    .abous-us__text {
+        font-size: 17px;
+        max-width: 510px;
+        margin-bottom: 45px;
+    }
+    .abous-us__element__text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .about-us__number__element::before {
+        right: -17px;
+    }
     /* about-us */
 
     /* cases */
+    .cases {
+        margin-top: 110px;
+        padding-bottom: 230px;
+    }
+    .circle-1 {
+        width: 240px;
+    }
+    .circle-2 {
+        width: 240px;
+        top: 34%;
+    }
+    .circle-3 {
+        width: 250px;
+        bottom: 35px;
+    }
+    .cases-town {
+        margin-bottom: 60px;
+    }
+    .img-town {
+        max-width: 420px;
+    }
+    .cases-town__left {
+        max-width: 320px;
+    }
+    .cases-town__title {
+        font-size: 66px;
+        line-height: 76px;
+    }
+    .cases-town__name {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 35px;
+    }
+    .cases-town__number--title {
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .cases-tow__text {
+        font-size: 20px;
+        line-height: 24px;
+    }
     /* cases */
 
     /* working */
@@ -196,6 +277,28 @@
     /* advantages */
 
     /* about-us */
+    .title-bout-us {
+        top: 0;
+        transform: none;
+    }
+    .abouts-us-img {
+        width: 400px;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .about-us__number__element::before {
+        display: none;
+    }
+    .abous-us__element__text {
+        font-size: 19px;
+        line-height: 19px;
+    }
+    .abous-us__text {
+        font-size: 16px;
+        max-width: 100%;
+        margin-bottom: 45px;
+        text-align: center;
+    }
     /* about-us */
 
     /* cases */
@@ -234,9 +337,69 @@
     /* advantages */
 
     /* about-us */
+    .abouts-us {
+        padding: 0 0 80px;
+        background-color: transparent;
+    }
+    .abous-us__text {
+        text-align: start;
+        margin-bottom: 20px;
+    }
+    .about-us__number__element::before {
+        display: table;
+        left: 0;
+        width: 150px;
+        height: 1px;
+        bottom: -25px;
+        top: auto;
+    }
+    .abous-us__element__title {
+        font-size: 50px;
+        line-height: 72px;
+    }
     /* about-us */
 
     /* cases */
+    .cases {
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+    .circle-2 {
+        width: 300px;
+        top: 47%;
+    }
+    .cases-town__title {
+        font-size: 55px;
+        line-height: 67px;
+    }
+    .cases-town__name {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+    .cases-town__left {
+        padding: 0 15px;
+        max-width: inherit;
+    }
+    .cases-town {
+        margin-bottom: 20px;
+    }
+    .cases-town__number--title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .cases-town__number--title::before {
+        width: 16px;
+        height: 16px;
+        transform: translate(-250%, -50%);
+        background-size: 16px;
+    }
+    .cases .container {
+        padding: 0;
+    }
+    .cases-title {
+        padding: 0 15px;
+    }
     /* cases */
 
     /* working */
@@ -295,12 +458,33 @@
         font-size: 18px;
         line-height: 22px;
     }
+
     /* advantages */
 
     /* about-us */
     /* about-us */
 
     /* cases */
+    .cases-town {
+        margin-bottom: 80px;
+    }
+    .circle-m-general {
+        z-index: -1;
+        right: 0;
+    }
+    .circle-m-1 {
+        top: 45px;
+    }
+    .circle-m-2 {
+        top: 34%;
+    }
+    .circle-m-3 {
+        bottom: 26%;
+    }
+    .btn-cases {
+        margin: 0 20px;
+        width: 280px;
+    }
     /* cases */
 
     /* working */
@@ -315,6 +499,12 @@
     /* контент */
 
     /* подвал */
+    .footer {
+        padding: 20px 0;
+    }
+    .footer-text {
+        font-size: 13px;
+    }
     /* подвал */
 }
 @media (max-width: 375px) {

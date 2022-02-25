@@ -319,6 +319,82 @@ button:focus {
 /* about-us */
 
 /* cases */
+.cases {
+    margin-top: 165px;
+    padding-bottom: 430px;
+    z-index: 0;
+}
+.cases-town {
+    margin-bottom: 120px;
+}
+.cases-town:last-child {
+    margin-bottom: 0px;
+}
+.cases-town__left {
+    max-width: 470px;
+}
+.cases-town__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 117px;
+    text-transform: uppercase;
+    color: #7b2fdf;
+    opacity: 0.3;
+}
+.cases-town__name {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 38px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #684ecc;
+    margin-bottom: 30px;
+}
+.cases-town__number--title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 68px;
+}
+.cases-town__number--title::before {
+    position: absolute;
+    display: table;
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(../img/4-cases/list-element.svg);
+    left: 0;
+    transform: translate(-195%, -50%);
+    top: 50%;
+    background-repeat: no-repeat;
+}
+.cases-tow__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+.img-town {
+    width: 100%;
+    max-width: 690px;
+}
+.circle-1 {
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.circle-2 {
+    top: 29%;
+    z-index: -1;
+    left: 0;
+}
+.circle-3 {
+    bottom: 190px;
+    right: 0;
+    z-index: -1;
+}
 /* cases */
 
 /* working */
@@ -333,4 +409,15 @@ button:focus {
 /* контент */
 
 /* подвал */
+.footer {
+    background-color: #7f2ae4;
+    padding: 40px 0;
+}
+.footer-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 125%;
+    color: #ffffff;
+}
 /* подвал */

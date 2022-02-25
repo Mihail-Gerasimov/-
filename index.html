@@ -41,7 +41,7 @@
                     </div>
 
                     <h2 class="header-title-mini mb-1">Нужны клиенты</h2>
-                    <h1 class="title color-violet header-title">на миграционные<br>услуги</h1>
+                    <h1 class="title color-violet header-title text-center text-sm-start">на миграционные<br>услуги</h1>
 
                     <img class="header-mob d-sm-none d-block" src="./img/1-header/header-mob.png" alt="">
 
@@ -125,10 +125,11 @@
     </section>
     <section class="abouts-us">
         <div class="container">
-            <div class="abouts-us-block d-flex align-items-end justify-content-between">
-
-                <div class="about-us__img d-flex position-relative">
-                    <h1 class="title-bout-us position-absolute title color-violet mb-0">О нас</h1>
+            <div
+                class="abouts-us-block flex-lg-row flex-column d-flex align-itemslg-end align-items-sm-center align-items-start justify-content-between">
+                <h1 class="title-bout-us d-lg-none d-block title color-violet mx-auto w-100">О нас</h1>
+                <div class="about-us__img d-none d-md-flex position-relative">
+                    <h1 class="title-bout-us d-lg-block d-none position-absolute title color-violet mb-0">О нас</h1>
                     <img class="abouts-us-img" src="./img/3-about-us/about-big.png" alt="">
                 </div>
 
@@ -139,33 +140,111 @@
                         вложения в рекламу и повышаем лидогенерацию на качество. Специалисты нашей компании помогают
                         генерировать качественные лиды и приводить именно тех потенциальных клиентов, которые готовы
                         законно списывать долги.</p>
-                    <div class="about-us__number d-flex align-items-start">
-                        <div class="about-us__number__element mx-auto">
-                            <h3 class="abous-us__element__title color-violet text-center mb-2">50</h3>
-                            <p class="abous-us__element__text text-center">компаний-партнёров <br>
+                    <div class="about-us__number mb-md-0 mb-5 d-flex flex-md-row flex-column align-items-start">
+                        <div class="about-us__number__element mx-md-auto mx-0 mb-md-0 mb-5">
+                            <h3 class="abous-us__element__title color-violet text-start text-md-center mb-2">50</h3>
+                            <p class="abous-us__element__text text-start text-md-center">компаний-партнёров <br>
                                 по всей РФ</p>
                         </div>
 
-                        <div class="about-us__number__element mx-auto">
-                            <h3 class="abous-us__element__title color-violet text-center mb-2">120</h3>
-                            <p class="abous-us__element__text text-center">заявки для<br> крупных клиентов<br> от 120 р
+                        <div class="about-us__number__element mx-md-auto mx-0 mb-md-0 mb-5">
+                            <h3 class="abous-us__element__title color-violet text-start text-md-center mb-2">120</h3>
+                            <p class="abous-us__element__text text-start text-md-center">заявки для<br> крупных
+                                клиентов<br> от 120 р
                             </p>
                         </div>
 
-                        <div class="about-us__number__element mx-auto">
-                            <h3 class="abous-us__element__title color-violet text-center mb-2">4</h3>
-                            <p class="abous-us__element__text text-center">года опыта работы
+                        <div class="about-us__number__element mx-md-auto mx-0 mb-0">
+                            <h3 class="abous-us__element__title color-violet text-start text-md-center mb-2">4</h3>
+                            <p class="abous-us__element__text text-start text-md-center">года опыта работы
                                 в <br> сфере миграционных<br>
                                 услуг </p>
                         </div>
                     </div>
+                    <img class=" d-block d-md-none" src="./img/3-about-us/about-little.png" alt="">
                 </div>
 
             </div>
         </div>
     </section>
-    <section class="cases">
-        <div class="container"></div>
+    <section class="cases position-relative overflow-hidden">
+        <img class="position-absolute circle-1 d-none d-sm-block" src="./img/4-cases/circle-1-d.png" alt="">
+        <img class="position-absolute circle-2 d-none d-sm-block" src="./img/4-cases/circle-3-d.png" alt="">
+        <img class="position-absolute circle-3 d-none d-sm-block" src="./img/4-cases/circle-2-d.png" alt="">
+
+        <img class="d-block d-sm-none position-absolute circle-m-1 circle-m-general" src="./img/4-cases/circle-mob.png"
+            alt="">
+        <img class="d-block d-sm-none position-absolute circle-m-2 circle-m-general" src="./img/4-cases/circle-mob.png"
+            alt="">
+        <img class="d-block d-sm-none position-absolute circle-m-3 circle-m-general" src="./img/4-cases/circle-mob.png"
+            alt="">
+
+        <div class="container">
+            <h1 class="cases-title title color-violet">Наши кейсы</h1>
+            <div class="cases-block">
+
+                <div
+                    class="cases-town d-flex flex-md-row flex-column justify-content-around align-items-start align-items-md-center">
+                    <div class="cases-town__left">
+                        <h3 class="cases-town__title mb-2">01</h3>
+                        <h4 class="cases-town__name">г. Москва</h4>
+                        <div class="cases-town__number mb-2 position-relative ps-5">
+                            <h5 class="cases-town__number--title color-violet mb-1 position-relative">823 заявки</h5>
+                            <p class="cases-tow__text">на миграционные услуги в месяц</p>
+                        </div>
+                        <div class="cases-town__number position-relative ps-5">
+                            <h5 class="cases-town__number--title color-violet mb-1 position-relative">159 договоров</h5>
+                            <p class="cases-tow__text">заключено</p>
+                        </div>
+                        <button class="btn-general btn-cases d-none d-sm-block mt-4">Хочу заявки</button>
+                    </div>
+                    <img class="img-town d-none d-sm-block" src="./img/4-cases/c-1-d.png" alt="">
+                    <img class="d-block d-sm-none w-100" src="./img/4-cases/c-1-m.png" alt="">
+                    <button class="btn-general btn-cases d-block d-sm-none">Хочу заявки</button>
+                </div>
+
+                <div
+                    class="cases-town d-flex flex-md-row-reverse flex-column justify-content-around align-items-start align-items-md-center">
+                    <div class="cases-town__left">
+                        <h3 class="cases-town__title mb-2">02</h3>
+                        <h4 class="cases-town__name">г. САНКТ-ПЕТЕРБУРГ</h4>
+                        <div class="cases-town__number mb-2 ps-5">
+                            <h5 class="cases-town__number--title color-violet position-relative mb-1">602 заявки</h5>
+                            <p class="cases-tow__text">на миграционные услуги в месяц</p>
+                        </div>
+                        <div class="cases-town__number ps-5">
+                            <h5 class="cases-town__number--title color-violet position-relative mb-1">125 договоров</h5>
+                            <p class="cases-tow__text">заключено</p>
+                        </div>
+                        <button class="btn-general btn-cases d-none d-sm-block mt-4">Хочу заявки</button>
+                    </div>
+                    <img class="img-town d-none d-sm-block" src="./img/4-cases/c-2-d.png" alt="">
+                    <img class="d-block d-sm-none w-100" src="./img/4-cases/c-2-m.png" alt="">
+                    <button class="btn-general btn-cases d-block d-sm-none">Хочу заявки</button>
+                </div>
+
+                <div
+                    class="cases-town d-flex flex-md-row flex-column justify-content-around align-items-start align-items-md-center">
+                    <div class="cases-town__left">
+                        <h3 class="cases-town__title mb-2">03</h3>
+                        <h4 class="cases-town__name">г. РОСТОВ-НА-ДОНУ</h4>
+                        <div class="cases-town__number mb-2 ps-5">
+                            <h5 class="cases-town__number--title color-violet mb-1 position-relative">411 заявок</h5>
+                            <p class="cases-tow__text">на миграционные услуги в месяц</p>
+                        </div>
+                        <div class="cases-town__number ps-5">
+                            <h5 class="cases-town__number--title color-violet mb-1 position-relative">93 договора</h5>
+                            <p class="cases-tow__text">заключено</p>
+                        </div>
+                        <button class="btn-general btn-cases d-none d-sm-block mt-4">Хочу заявки</button>
+                    </div>
+                    <img class="img-town d-none d-sm-block" src="./img/4-cases/c-3-d.png" alt="">
+                    <img class="d-block d-sm-none w-100" src="./img/4-cases/c-3-m.png" alt="">
+                    <button class="btn-general btn-cases d-block d-sm-none">Хочу заявки</button>
+                </div>
+
+            </div>
+        </div>
     </section>
     <section class="working">
         <div class="container"></div>
@@ -180,7 +259,9 @@
 
     <!-- подвал -->
     <section class="footer">
-        <div class="container"></div>
+        <div class="container">
+            <p class="footer-text text-center">Все права защищены. Мы используем политику конфиденциальности</p>
+        </div>
     </section>
     <!-- подвал -->
 
