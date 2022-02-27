@@ -117,7 +117,6 @@ button:focus {
 }
 
 .title {
-    /* font-family: "Segoe UI Gras"; */
     font-style: normal;
     font-weight: 900;
     font-size: 65px;
@@ -175,11 +174,109 @@ button:focus {
         max-width: inherit;
         padding: 15px 0;
     }
+    .input-general {
+        border-radius: 5px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 17px 0 17px 18px;
+        color: #c4c4c4;
+    }
+}
+.input-general {
+    background-color: #ffffff;
+    border: 0.5px solid #7f2ae4;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    padding: 17px 0 17px 25px;
+    color: #c4c4c4;
+}
+.input-general:hover {
+    border: 0.5px solid #7f2ae4;
+}
+.input-general:focus {
+    border: 0.5px solid #7f2ae4;
+}
+@media (max-width: 991px) {
+    .input-general {
+        border-radius: 5px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 17px 0 17px 18px;
+        color: #c4c4c4;
+    }
 }
 /* base */
 
 /* модалка */
+.modal-dialog {
+    max-width: 1060px;
+}
+.btn-close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    background: transparent url(../img/0-modal/close.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+.modal-content {
+    border: none;
+    border-radius: 0;
+    background-color: #f8f8f8;
+    padding: 85px 60px 55px 135px;
+}
+.title-modal {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    color: #684ecc;
+}
+.modal-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155%;
+    max-width: 330px;
+}
+.input-modal {
+    max-width: 375px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+}
+.btn-modal {
+    max-width: 375px;
+    border-radius: 5px;
+    box-shadow: none;
+}
 /* модалка */
+
+/* Спасибо */
+.thanks-list {
+    z-index: 10000;
+    top: 20px;
+    margin: 1.75rem auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1060px;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 162px 63px 162px 185px;
+}
+.thanks-closed {
+    right: 30px;
+    top: 30px;
+}
+/* Спасибо */
 
 /* контент */
 
@@ -398,12 +495,145 @@ button:focus {
 /* cases */
 
 /* working */
+.working {
+    margin-bottom: 160px;
+}
+
+.general-card {
+    width: 100%;
+    max-width: 375px;
+    z-index: 0;
+}
+.working-step {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+}
+.working-card__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+}
+.working-card__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 272px;
+}
+.working-card-number {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 75%;
+    background-image: linear-gradient(to bottom left, rgba(98, 85, 198, 0.369), rgba(145, 9, 246, 0.369));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    top: 40px;
+}
+.working-card-number__one {
+    right: 50px;
+}
+.working-card-number__two {
+    right: 40px;
+}
+.working-card-number__three {
+    right: 11px;
+}
+.working-card-number__four {
+    right: 20px;
+}
 /* working */
 
 /* big-form */
+.big-form {
+    margin-bottom: 160px;
+}
+.form-block-form {
+    z-index: 0;
+}
+.big-form__general {
+    width: 750px;
+    background-color: #ffffff;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 20px;
+    padding: 65px 80px 60px;
+}
+.big-form__substrate {
+    width: 790px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 20px;
+    bottom: -20px;
+    left: -20px;
+    z-index: -1;
+}
+.btn-big-form {
+    max-width: 545px;
+}
+.big-form__input {
+    max-width: 545px;
+    box-shadow: 0px 15px 30px -10px rgba(193, 159, 237, 0.4) !important;
+}
+.big-form__input:focus {
+    box-shadow: 0px 15px 30px -10px rgba(193, 159, 237, 0.4) !important;
+}
+.big-form__input:hover {
+    box-shadow: 0px 15px 30px -10px rgba(193, 159, 237, 0.4) !important;
+}
+.big-form-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 105%;
+}
+.big-form-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 545px;
+}
+.git-form-img {
+    max-width: 375px;
+}
+
 /* big-form */
 
 /* attention */
+.attention {
+    margin-bottom: 100px;
+}
+.attention-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 450px;
+}
+.attention-card {
+    background: #ffffff;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 32px 42px 67px;
+}
+.attention-card__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+}
+.attention-card__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
 /* attention */
 
 /* контент */

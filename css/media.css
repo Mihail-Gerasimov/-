@@ -1,7 +1,4 @@
 @media (max-width: 1570px) {
-    /* модалка */
-    /* модалка */
-
     /* контент */
 
     /* header */
@@ -9,9 +6,6 @@
         max-width: 740px;
     }
     /* header */
-
-    /* advantages */
-    /* advantages */
 
     /* about-us */
     .title-bout-us {
@@ -43,24 +37,22 @@
     }
     /* cases */
 
-    /* working */
-    /* working */
-
     /* big-form */
+    .git-form-img {
+        max-width: 350px;
+    }
+    .big-form__general {
+        width: 610px;
+        padding: 65px 30px 60px;
+    }
+    .big-form__substrate {
+        width: 650px;
+    }
     /* big-form */
-
-    /* attention */
-    /* attention */
 
     /* контент */
-
-    /* подвал */
-    /* подвал */
 }
 @media (max-width: 1440px) {
-    /* модалка */
-    /* модалка */
-
     /* контент */
 
     /* header */
@@ -90,32 +82,33 @@
     }
     /* header */
 
-    /* advantages */
-    /* advantages */
-
-    /* about-us */
-    /* about-us */
-
-    /* cases */
-    /* cases */
-
-    /* working */
-    /* working */
-
     /* big-form */
+    .git-form-img {
+        max-width: 260px;
+    }
     /* big-form */
-
-    /* attention */
-    /* attention */
 
     /* контент */
-
-    /* подвал */
-    /* подвал */
 }
 @media (max-width: 1200px) {
     /* модалка */
+    .modal-img {
+        max-width: 350px;
+    }
+    .modal-dialog {
+        max-width: 991px;
+    }
     /* модалка */
+
+    /* Спасибо */
+    .thanks-list {
+        max-width: 768px;
+        padding: 120px 50px 50px;
+    }
+    .thanks-img {
+        width: 300px;
+    }
+    /* Спасибо */
 
     /* контент */
 
@@ -152,9 +145,6 @@
         max-width: 425px;
     }
     /* header */
-
-    /* advantages */
-    /* advantages */
 
     /* about-us */
     .abouts-us-img {
@@ -219,23 +209,70 @@
     }
     /* cases */
 
-    /* working */
-    /* working */
-
     /* big-form */
+    .git-form-img {
+        max-width: 230px;
+    }
+    .big-form-title {
+        font-size: 33px;
+    }
+    .big-form-text {
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 445px;
+    }
+    .btn-big-form {
+        width: 100%;
+    }
+    .big-form__general {
+        width: 445px;
+    }
+    .big-form__substrate {
+        width: 465px;
+        height: 300px;
+        bottom: -10px;
+        left: -10px;
+    }
     /* big-form */
-
-    /* attention */
-    /* attention */
 
     /* контент */
-
-    /* подвал */
-    /* подвал */
 }
 @media (max-width: 991px) {
     /* модалка */
+    .btn-modal {
+        width: 270px;
+    }
+    .input-modal {
+        max-width: 270px;
+    }
+    .title-modal {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .modal-text {
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 290px;
+    }
+    .modal-img {
+        max-width: 270px;
+    }
+    .modal-dialog {
+        max-width: 768px;
+    }
+    .modal-content {
+        padding: 85px 60px 55px 85px;
+    }
     /* модалка */
+
+    /* Спасибо */
+    .thanks-list {
+        padding: 120px 50px 20px;
+    }
+    .thanks-img {
+        width: 250px;
+    }
+    /* Спасибо */
 
     /* контент */
 
@@ -301,26 +338,50 @@
     }
     /* about-us */
 
-    /* cases */
-    /* cases */
-
-    /* working */
-    /* working */
-
     /* big-form */
+    .big-form {
+        margin-bottom: 80px;
+    }
     /* big-form */
 
     /* attention */
+    .attention {
+        margin-bottom: 80px;
+    }
+    .attention-text {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 355px;
+    }
+    .attention-card {
+        padding: 20px 20px 30px;
+    }
+    .attention-card__text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
     /* attention */
 
     /* контент */
-
-    /* подвал */
-    /* подвал */
 }
 @media (max-width: 768px) {
     /* модалка */
+    .modal-content {
+        padding: 150px 25px 50px;
+    }
+    .modal-dialog {
+        max-width: 320px;
+        margin: 1.75rem auto !important;
+    }
     /* модалка */
+
+    /* Спасибо */
+    .thanks-list {
+        max-width: 320px;
+        padding: 120px 40px 20px;
+    }
+    /* Спасибо */
 
     /* контент */
 
@@ -332,9 +393,6 @@
         max-width: 250px;
     }
     /* header */
-
-    /* advantages */
-    /* advantages */
 
     /* about-us */
     .abouts-us {
@@ -403,23 +461,74 @@
     /* cases */
 
     /* working */
+    .working {
+        margin-bottom: 80px;
+    }
+    .general-card {
+        width: 100%;
+        height: 210px;
+        max-width: 280px;
+    }
+    .working-card {
+        width: 100%;
+        height: 210px;
+        max-width: 276px;
+        border-radius: 20px;
+        padding: 20px 16px 0 30px;
+        background-color: #fff !important;
+        z-index: 1;
+    }
+
+    .working-mob-under {
+        position: absolute;
+        top: -2px;
+        right: 2px;
+        background: linear-gradient(138deg, #6255c65e, #9109f65e);
+        border-radius: 22px;
+        z-index: -1;
+        width: 280px;
+        height: 214px;
+    }
+    .working-card-number__mob {
+        background-image: linear-gradient(to bottom left, rgba(98, 85, 198, 0.369), rgba(145, 9, 246, 0.369));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 75%;
+        right: 16px;
+        bottom: 20px;
+    }
+    .working-card__title {
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .working-card__text {
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 100%;
+    }
     /* working */
 
-    /* big-form */
-    /* big-form */
-
     /* attention */
+    .attention-card {
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .attention-card__img {
+        max-width: 137px;
+    }
+    .attention-card__text b {
+        color: #7f2ae4;
+    }
     /* attention */
 
     /* контент */
-
-    /* подвал */
-    /* подвал */
 }
 @media (max-width: 575px) {
-    /* модалка */
-    /* модалка */
-
     /* контент */
 
     /* header */
@@ -461,9 +570,6 @@
 
     /* advantages */
 
-    /* about-us */
-    /* about-us */
-
     /* cases */
     .cases-town {
         margin-bottom: 80px;
@@ -487,14 +593,31 @@
     }
     /* cases */
 
-    /* working */
-    /* working */
-
     /* big-form */
+    .big-form .container {
+        padding: 0;
+    }
+    .big-form-title {
+        font-size: 30px;
+    }
+    .big-form-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .big-form__general {
+        width: 320px;
+        padding: 60px 15px;
+    }
+    .big-form__substrate {
+        width: 290px;
+        height: 300px;
+        bottom: -20px;
+        left: 15px;
+    }
+    .big-form__input {
+        box-shadow: none !important;
+    }
     /* big-form */
-
-    /* attention */
-    /* attention */
 
     /* контент */
 
@@ -508,9 +631,6 @@
     /* подвал */
 }
 @media (max-width: 375px) {
-    /* модалка */
-    /* модалка */
-
     /* контент */
 
     /* header */
@@ -523,26 +643,5 @@
     }
     /* header */
 
-    /* advantages */
-    /* advantages */
-
-    /* about-us */
-    /* about-us */
-
-    /* cases */
-    /* cases */
-
-    /* working */
-    /* working */
-
-    /* big-form */
-    /* big-form */
-
-    /* attention */
-    /* attention */
-
     /* контент */
-
-    /* подвал */
-    /* подвал */
 }

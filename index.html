@@ -27,8 +27,45 @@
 
 <body>
     <!-- модалка -->
-
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-block d-flex justify-content-between align-items-center">
+                    <div class="modal-form">
+                        <h2 class="title-modal text-center text-md-start mb-1">Хочу заявки!</h2>
+                        <p class="modal-text text-center text-md-start mb-3">Для получения заявок, оставьте номер
+                            телефона и ваше имя. Наш менеджер расскажет вам все подробнее.</p>
+                        <form action="">
+                            <input class="input-general input-modal mb-3" placeholder="Ваше Имя" type="text">
+                            <input class="input-general input-modal mb-3" placeholder="+7 (___) ___ - __ - __"
+                                type="tel">
+                            <button class="btn-general btn-modal">Хочу заявки!</button>
+                        </form>
+                    </div>
+                    <img class="modal-img d-none d-md-block" src="./img/0-modal/modal-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- модалка -->
+
+    <!-- Спасибо -->
+    <!-- Окно спасибо - надо раскоментировать, при натяжке! -->
+    <!-- <div
+        class="thanks-list position-relative d-flex justify-content-between align-items-center position-fixed flex-column flex-md-row">
+        <img class="thanks-closed position-absolute" src="./img/0-modal/close.svg" alt="">
+        <div class="thanks-list__left">
+            <h2 class="title-modal text-center text-md-start mb-1">Заявка <br>
+                отправлена!</h2>
+            <p class="modal-text text-center text-md-start mb-0 mb-md-3">Мы получили вашу заявку.
+                Наш менеджер свяжится с вами.</p>
+        </div>
+        <img class="thanks-img d-none d-md-block" src="img/0-modal/thanks-desk.png" alt="">
+        <img class="thanks-img d-block d-md-none" src="img/0-modal/modal-img.png" alt="">
+    </div> -->
+    <!-- Спасибо -->
 
     <!-- контент -->
     <section class="header">
@@ -47,7 +84,8 @@
 
                     <div
                         class="header-click d-flex align-items-lg-center align-items-start flex-lg-row flex-column-reverse ">
-                        <button class="btn-general me-xxl-4 me-xl-2 me-lg-2 me-0">Хочу заявки</button>
+                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                            class="btn-general me-xxl-4 me-xl-2 me-lg-2 me-0">Хочу заявки</button>
                         <p class="header-click__text mb-lg-0 mb-2">на гражданство, РВП, ВНЖ и т.д.</p>
                     </div>
                 </div>
@@ -110,7 +148,8 @@
 
             </div>
 
-            <button class="btn-general d-block d-sm-none">Хочу заявки</button>
+            <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn-general d-block d-sm-none">Хочу
+                заявки</button>
 
             <div class="active d-none d-sm-flex align-items-center justify-content-center">
                 <div class="active-element me-4"></div>
@@ -196,11 +235,13 @@
                             <h5 class="cases-town__number--title color-violet mb-1 position-relative">159 договоров</h5>
                             <p class="cases-tow__text">заключено</p>
                         </div>
-                        <button class="btn-general btn-cases d-none d-sm-block mt-4">Хочу заявки</button>
+                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                            class="btn-general btn-cases d-none d-sm-block mt-4">Хочу заявки</button>
                     </div>
                     <img class="img-town d-none d-sm-block" src="./img/4-cases/c-1-d.png" alt="">
                     <img class="d-block d-sm-none w-100" src="./img/4-cases/c-1-m.png" alt="">
-                    <button class="btn-general btn-cases d-block d-sm-none">Хочу заявки</button>
+                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        class="btn-general btn-cases d-block d-sm-none">Хочу заявки</button>
                 </div>
 
                 <div
@@ -216,11 +257,13 @@
                             <h5 class="cases-town__number--title color-violet position-relative mb-1">125 договоров</h5>
                             <p class="cases-tow__text">заключено</p>
                         </div>
-                        <button class="btn-general btn-cases d-none d-sm-block mt-4">Хочу заявки</button>
+                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                            class="btn-general btn-cases d-none d-sm-block mt-4">Хочу заявки</button>
                     </div>
                     <img class="img-town d-none d-sm-block" src="./img/4-cases/c-2-d.png" alt="">
                     <img class="d-block d-sm-none w-100" src="./img/4-cases/c-2-m.png" alt="">
-                    <button class="btn-general btn-cases d-block d-sm-none">Хочу заявки</button>
+                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        class="btn-general btn-cases d-block d-sm-none">Хочу заявки</button>
                 </div>
 
                 <div
@@ -236,24 +279,145 @@
                             <h5 class="cases-town__number--title color-violet mb-1 position-relative">93 договора</h5>
                             <p class="cases-tow__text">заключено</p>
                         </div>
-                        <button class="btn-general btn-cases d-none d-sm-block mt-4">Хочу заявки</button>
+                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                            class="btn-general btn-cases d-none d-sm-block mt-4">Хочу заявки</button>
                     </div>
                     <img class="img-town d-none d-sm-block" src="./img/4-cases/c-3-d.png" alt="">
                     <img class="d-block d-sm-none w-100" src="./img/4-cases/c-3-m.png" alt="">
-                    <button class="btn-general btn-cases d-block d-sm-none">Хочу заявки</button>
+                    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        class="btn-general btn-cases d-block d-sm-none">Хочу заявки</button>
                 </div>
 
             </div>
         </div>
     </section>
     <section class="working">
-        <div class="container"></div>
+        <div class="container">
+            <h1 class="title color-violet text-start">Как мы проводим <br> работу?</h1>
+
+            <div class="working-block d-flex align-items-start flex-wrap">
+
+                <div class="general-card position-relative mx-auto position-relative mb-4 mb-md-5">
+                    <div class="working-card position-relative">
+                        <p class="working-step d-none d-md-inline-block">ШАГ 1</p>
+                        <h4 class="working-card__title mb-3 mb-md-4">
+                            Специалисты <br>
+                            приступают к работе
+                        </h4>
+                        <p class="working-card__text">Мы настраиваем генерацию лидов в зависимости от вашего города,
+                            запускаем аналитику</p>
+                        <div class="working-card-number d-none d-md-block working-card-number__one position-absolute">1
+                        </div>
+                        <div class="working-card-number__mob d-block d-md-none position-absolute">01
+                        </div>
+                    </div>
+                    <span class="working-mob-under"></span>
+                </div>
+
+                <div class="general-card position-relative mx-auto position-relative mb-4 mb-md-5">
+                    <div class="working-card position-relative">
+                        <p class="working-step d-none d-md-inline-block">ШАГ 2</p>
+                        <h4 class="working-card__title mb-3 mb-md-4">
+                            Запускаем CRM <br>
+                            систему в работу
+                        </h4>
+                        <p class="working-card__text">Вводим CRM систему и предоставляем доступ клиенту, проводится
+                            инструктаж по работе с системой</p>
+                        <div class="working-card-number d-none d-md-block working-card-number__two position-absolute">2
+                        </div>
+                        <div class="working-card-number__mob d-block d-md-none position-absolute">02
+                        </div>
+                    </div>
+                    <span class="working-mob-under"></span>
+                </div>
+
+                <div class="general-card position-relative mx-auto position-relative mb-4 mb-md-5">
+                    <div class="working-card position-relative">
+                        <p class="working-step d-none d-md-inline-block">ШАГ 3</p>
+                        <h4 class="working-card__title mb-3 mb-md-4">
+                            Настройка рекламной <br> кампании
+                        </h4>
+                        <p class="working-card__text">Настраиваем рекламные площадки Яндекс Директ, Google Adwords,
+                            Facebook
+                            и Instagram в зависимости от Вашего ГЕО работы</p>
+                        <div class="working-card-number d-none d-md-block working-card-number__three position-absolute">
+                            3
+                        </div>
+                        <div class="working-card-number__mob d-block d-md-none position-absolute">03
+                        </div>
+                    </div>
+                    <span class="working-mob-under"></span>
+                </div>
+
+                <div class="general-card position-relative mx-auto position-relative mb-4 mb-md-5">
+                    <div class="working-card position-relative">
+                        <p class="working-step d-none d-md-inline-block">ШАГ 4</p>
+                        <h4 class="working-card__title mb-3 mb-md-4">
+                            Подключаем трафик <br> на сайт
+                        </h4>
+                        <p class="working-card__text">Мы запускаем в работу трафик, автоматически идут заявки</p>
+                        <div class="working-card-number d-none d-md-block working-card-number__four position-absolute">4
+                        </div>
+                        <div class="working-card-number__mob d-block d-md-none position-absolute">04
+                        </div>
+                    </div>
+                    <span class="working-mob-under"></span>
+                </div>
+
+            </div>
+            <div class="active mt-4 d-none d-sm-flex align-items-center justify-content-center">
+                <div class="active-element me-4"></div>
+                <div class="active-element me-4"></div>
+                <div class="active-element me-4"></div>
+                <div class="active-element me-4"></div>
+                <div class="active-element me-4"></div>
+                <div class="active-element active-element__violet"></div>
+            </div>
+        </div>
     </section>
     <section class="big-form">
-        <div class="container"></div>
+        <div class="container">
+            <div class="form-block d-flex align-items-center justify-content-center justify-content-lg-between">
+                <img class="git-form-img d-none d-lg-block" src="./img/6-big-form/big-left-scop.png" alt="">
+                <div class="form-block-form position-relative">
+                    <form class="big-form__general d-flex flex-column align-items-center text-center" action="">
+                        <h4 class="big-form-title color-violet mb-4 mb-lg-5">Получить <br>
+                            качественные лиды</h4>
+                        <p class="big-form-text mb-4 mb-lg-5">Для получения заявок, оставьте номер телефона и ваше имя.
+                            Наш менеджер расскажет вам все подробнее.</p>
+                        <input class="input-general big-form__input mb-4" placeholder="Ваше Имя" type="text">
+                        <input class="input-general big-form__input mb-5" placeholder="+7 (___) ___ - __ - __"
+                            type="tel">
+                        <button class="btn-general btn-big-form">Хочу заявки</button>
+                    </form>
+                    <div class="big-form__substrate position-absolute"></div>
+                </div>
+                <img class="git-form-img d-none d-lg-block" src="./img/6-big-form/git-right-scop.png" alt="">
+            </div>
+        </div>
     </section>
     <section class="attention">
-        <div class="container"></div>
+        <div class="container">
+            <div
+                class="attention-block d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-around">
+
+                <div class="attention-thanks mb-5 mb-md-0">
+                    <h1 class="title color-violet mb-2 text-center text-md-start">Спасибо <br>
+                        за внимание!</h1>
+                    <p class="attention-text text-center text-md-start">Просто свяжитесь с нами удобным для Вас
+                        способом, и наш менеджер с удовольствием
+                        ответит на ваши вопросы.</p>
+                </div>
+                <div class="attention-card d-flex flex-column align-items-center">
+                    <img class="attention-card__img mb-4 mb-md-1" src="./img/7-attention/att-card.png" alt="">
+                    <h4 class="attention-card__title text-uppercase color-violet mb-2 d-none d-md-block">Важно</h4>
+                    <p class="attention-card__text text-center">Мы берем <b>только одного <br> партнера</b> в вашем
+                        регионе <br>
+                        и <b>не работаем с конкурентами</b></p>
+
+                </div>
+            </div>
+        </div>
     </section>
     <!-- контент -->
 
